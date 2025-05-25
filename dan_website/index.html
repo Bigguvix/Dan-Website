@@ -60,13 +60,24 @@
 </body>
 
 <body>
-  <h1>Subscribe to my newsletter!</h1>
 
-  <form action="/action_page.php">
+  <!-- https://stackoverflow.com/questions/66790588/alert-message-on-button-submit-javascript -->
+
+  <script>
+    function submit() {
+      alert("You subscribe to my Newsletter!").then(response => {
+        window.location.href = 'index.html';
+      })
+    }
+  </script>
+
+  <h1>Subscribe to my newsletter!</h1>
+  <div class="box">
     <label for="femail">E-mail:</label>
     <input type="text" id="fname" name="fname"><br><br>
-    <input type="submit" value="Subscribe">
-  </form>
+    <input type="submit" value="Subscribe" onclick="submit()">
+    </form>
 </body>
+</div>
 
 </html>

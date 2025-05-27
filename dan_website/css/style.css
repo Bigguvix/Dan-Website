@@ -1,12 +1,75 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+:root {
+    /* Colores */
+    --white-color: #fff;
+    --dark-color: #252525;
+    --primary-color: #f4b548;
+    --button-color: #f86f66;
+    --title-color: #350815;
+    --text-color: #d69a8f;
+
+    /* Tamaño de fuente*/
+    --font-size-m: 1.12rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+/*Decoracion navbar*/
+
+header {
+    background: var(--primary-color);
+}
+
+header .navbar {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav-menu {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar .nav-menu .nav-link{
+    padding: 10px 18px;
+    color: var(--white-color);
+    background-color: var(--button-color);
+    border-radius: var(--border-radius-m);
+}
+
 #footer {
-    background-color: #222;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--dark-color);
     padding: 20px;
     text-align: center;
 }
 
 #footer .socials a {
-    color: black;
+    color: var(--dark-color);
     margin: 0 10px;
     font-size: 24px;
     text-decoration: none;
@@ -14,5 +77,5 @@
 }
 
 #footer .socials a:hover {
-    color: black;
+    color: red;
 }

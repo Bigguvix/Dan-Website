@@ -20,6 +20,8 @@
 
     /* Tamaño de fuente*/
     --font-size-m: 1.12rem;
+    
+    --border-radius-m: 500px;
 }
 
 ul {
@@ -54,6 +56,7 @@ section{
     border-color: black;
     border-style: solid;
     text-align: center;
+    margin:auto;
     
     
 }

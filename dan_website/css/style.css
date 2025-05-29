@@ -48,7 +48,15 @@ header .navbar {
     align-items: center;
     justify-content: space-between;
 }
-
+section{
+    background-color: #f4b548;
+    width: 900px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    
+    
+}
 .navbar .nav-menu {
     display: flex;
     gap: 10px;

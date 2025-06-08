@@ -1,0 +1,151 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+:root {
+    /* Colores */
+    --white-color: #fff;
+    --dark-color: #252525;
+    --primary-color: #f4b548;
+    --button-color: #f86f66;
+    --title-color: #350815;
+    --text-color: #d69a8f;
+
+    /* Tamaño de fuente*/
+    --font-size-m: 1.12rem;
+    
+    --border-radius-m: 500px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+/*Decoracion navbar*/
+
+header {
+    background: var(--white-color);
+}
+
+header .navbar {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+}
+section{
+    background-color: #f4b548;
+    width: 900px;
+    text-align: center;
+    margin:auto;
+    border-radius: 20px;
+    
+    
+    
+}
+.navbar .nav-menu {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar .nav-menu .nav-link{
+    padding: 10px 18px;
+    color: var(--button-color);
+    background-color: var(--white-color);
+   
+}
+body  {
+    background-color: aqua;
+    color: var(--text-color);;
+    align-items: center; 
+} 
+.imagen-dan{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+.imagebox{
+   text-align: center;
+    position:relative;
+    left: 250px;
+    
+    
+}
+.button{
+    text-align: right;
+}
+.imagenes-centro{
+    text-align: center;
+}
+header{
+    color: var(--button-color);
+}
+.titledan{
+    text-align: center;
+    position:relative;
+    top: 300px;
+    right:340px;
+    height: ;
+}
+.parrafosec{
+    position: relative;
+    left: 300px;
+    top: 300px;
+    color:#f86f66 ;
+}
+.categories{
+    position: relative;
+    top:70px;
+    font: 400px;
+}
+.someofwork{
+    color: #f86f66;
+    position: relative;
+    left: 600px;
+    font: size 20px;
+}
+#footer {
+    color: var(--dark-color);
+    padding: 20px;
+    
+}
+.news{
+    color: #f86f66;
+    font-size: ;
+}
+.belowfotter{
+    color: var(--dark-color);
+    position: relative;
+    text-align: center;
+}
+#footer .socials a {
+    color: var(--dark-color);
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+
+}
+
+#footer .socials a:hover {
+    color: black;
+}
+

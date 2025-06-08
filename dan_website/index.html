@@ -39,30 +39,43 @@
        <button type="button" class="btn btn-secondary">Let's chat!</button>
     </nav>
   </header>
-  <h1>hi,i'm Dan....</h1>
+  <br>
+  <br>
+  
+  <div class="titledan">
+    <h1>Hi,i'm Dan....</h1>
+  </div>
+ <div class="parrafosec">
   <p>let's know each other better and find the best way to work together</p>
+ </div>
   <br>
   <br>
-  <img src="archivos/archivo.jpg" alt="imagen referencia dan"  height="500" width="500">
+  <div class="imagebox">
+    <img src="archivos/archivo.jpg" class="imagen-dan" alt="imagen-Dan"></img>
+  </div>
 <br>
 <br>
 <br>
-  <div>
-    <h2>categories</h2>
+  <div class="categories">
+    <h2>Categories</h2>
   </div>
 
-  <div>
-    <button type="button"  class="btn btn-secondary fa-solid fa-arrow-left"></button>
+  <main class="button">
+  <button type="button"  class="btn btn-secondary fa-solid fa-arrow-left"></button>
     <button type="button"  class="btn btn-secondary fa-solid fa-arrow-right"></button>
-    <ul>
-      <li>some of the work I like the most</li>
-    </ul>
-    <figure>
+    </main>
+<div class="someofwork">
+   <h3>
+    Some of the work I like the most.
+   </h3>
+   </div>
+    
+   <figure>
       <img src="archivos/08630a01-453e-4b31-9e1b-6bfb7686aea1.jpeg" alt="playa" height="100px" width="100px">
       <img src="archivos/descarga.jpeg" alt="playa">
       <img src="archivos/descarga (1).jpeg" alt="playa">
     </figure>
-  </div>
+  </main>
   </nav>
 <br>
 <br>
@@ -92,6 +105,7 @@
     <!-- https://stackoverflow.com/questions/66790588/alert-message-on-button-submit-javascript -->
 
     <script>
+      
       function submit() {
         alert("You subscribe to my Newsletter!").then(response => {
           window.location.href = 'index.html';
@@ -102,12 +116,17 @@
 <br>
 <br>
     <section>
-      <h1>Subscribe to my newsletter!</h1>
+      <h1>Sing up to my newsletter!</h1>
+     <div class="news">
+      <h2>
+        Receive the latest news,and others things every week.
+        </div>
+      </h2>
       <div class="box">
         <form onsubmit="submitNewsletter(event)">
           <label for="femail">E-mail:</label>
           <input type="email" id="femail" name="femail" required><br><br>
-          <input type="submit" value="Subscribe">
+          <input type="submit" value="Subscribe" class="btn btn-secondary fa-solid fa-arrow-right">
         </form>
       </div>
     </section>
@@ -121,7 +140,12 @@
         <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
       </div>
       <p>© 2025 Dan's Website. All rights reserved.</p>
+    <div class="belowfotter">
+      <a href="2">Resouces</a>
+    <a href="3">Contact</a>
+    </div>
     </footer>
+
 
 
 

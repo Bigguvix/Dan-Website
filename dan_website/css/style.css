@@ -71,37 +71,81 @@ section{
     color: var(--button-color);
     background-color: var(--white-color);
    
-    
-
 }
 body  {
     background-color: aqua;
     color: var(--text-color);;
+    align-items: center; 
+} 
+.imagen-dan{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+.imagebox{
+   text-align: center;
+    position:relative;
+    left: 250px;
+    
     
 }
-
-header{
-    ti
-    color: var(--button-color);
+.button{
+    text-align: right;
 }
-
-}
-#footer {
-    background-color: var(--primary-color);
-    color: var(--dark-color);
-    padding: 20px;
+.imagenes-centro{
     text-align: center;
 }
-
+header{
+    color: var(--button-color);
+}
+.titledan{
+    text-align: center;
+    position:relative;
+    top: 300px;
+    right:340px;
+    height: ;
+}
+.parrafosec{
+    position: relative;
+    left: 300px;
+    top: 300px;
+    color:#f86f66 ;
+}
+.categories{
+    position: relative;
+    top:70px;
+    font: 400px;
+}
+.someofwork{
+    color: #f86f66;
+    position: relative;
+    left: 600px;
+    font: size 20px;
+}
+#footer {
+    color: var(--dark-color);
+    padding: 20px;
+    
+}
+.news{
+    color: #f86f66;
+    font-size: ;
+}
+.belowfotter{
+    color: var(--dark-color);
+    position: relative;
+    text-align: center;
+}
 #footer .socials a {
     color: var(--dark-color);
     margin: 0 10px;
     font-size: 24px;
     text-decoration: none;
     transition: color 0.3s;
+
 }
 
 #footer .socials a:hover {
-    color: red;
+    color: black;
 }
 
